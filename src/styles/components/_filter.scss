@@ -1,0 +1,84 @@
+#filter {
+    padding:10px;
+
+    .card {
+        width: 18rem;
+    }
+
+    .filter-heading {
+        font-size: 18px;
+        font-weight: 700;
+        padding: 10px
+    }
+
+    .sub-filter {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .sub-filter-hr {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .filter-sub-div {
+        padding-bottom: 20px;
+    }
+
+    #sub-filter-first-button {
+        background-color: #95e943;
+        border-color: #95e943;
+        color: black;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-right: 40px;
+        margin-left: 6px;
+    }
+
+    #sub-filter-second-button {
+        background-color: #95e943;
+        border-color: #95e943;
+        color: black;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    #home #sub-filter-first-button {
+        margin-left: 30px!important;
+    }
+}
+
+
+@media (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+    #home #sub-filter-first-button {
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+        margin-right: 10px!important;
+    }
+
+    #home #sub-filter-second-button {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    #home #sub-filter-first-button {
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+        margin-right: 14px !important;
+        margin-left: 10px!important;
+    }
+
+    #home #sub-filter-second-button {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
